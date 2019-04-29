@@ -1,0 +1,70 @@
+.review-card {
+    min-width: 300px;
+    background: #F9F7F2;
+    padding: 25px 9px 10px 19px;
+    margin-right: 20px;
+}
+
+/*Блок с именем и фото*/
+.review-card__user {
+    display: flex;
+    align-items: center;
+    font-family: KievitPro, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.review-card__picture {
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.review-card__name {
+    font-size: 15px;
+    line-height: 17px;
+}
+
+/*Блок с текстом*/
+
+.review-card__title {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.464286px;
+    line-height: 17px;
+    margin: 28px 0 12px;
+    font-family: KievitPro, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.review-card__color{
+    color: #FC4F1E;
+    font-family: KievitPro, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.review-card__text {
+    font-size: 15px;
+    line-height: 25px;
+    font-family: KievitPro, Arial, sans-serif;
+    font-weight: 400;
+}
+
+/*Блок с изображениями*/
+
+.review-card__images{
+    display: flex;
+    margin: 8px 0 26px;
+}
+
+.review-card__images .image-row__picture {
+    cursor: pointer;
+}
+
+/*Last*/
+
+.review-card__info{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    margin-bottom: 11px;
+    font-family: Roboto, sans-serif;
+}

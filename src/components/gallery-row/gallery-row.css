@@ -1,0 +1,10 @@
+.gallery-row {
+    display: flex;
+    position: relative;
+    transition: 0.5s
+}
+
+.gallery-row .gallery__picture {
+    cursor: pointer;
+    margin-right: 5px;
+}

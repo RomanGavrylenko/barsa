@@ -1,0 +1,30 @@
+.chat-input__button {
+    background: url('../../images/svg/fly.svg') center center no-repeat;
+    width: 35px;
+    height: 50px;
+    display: block;
+    border: none;
+    
+}
+
+.chat-input__picture {
+    margin-right: 20px;
+}
+
+/*Форма*/
+
+.chat-input__input {
+    padding: 15px 30px 15px 25px;
+    border: 1px solid #ECECEC;
+    margin-right: 15px;
+}
+
+.chat-input__input::placeholder {
+    color: #A3A2A2;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.chat-item__form {
+    display: flex;
+}

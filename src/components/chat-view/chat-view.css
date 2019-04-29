@@ -1,0 +1,85 @@
+.chat {
+    background: #fff;
+}
+
+.chat__title {
+    font-family: KievitPro, Arial, sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    margin-bottom: 25px;
+}
+
+/*Верхняя часть чата с именем, должность*/
+
+.chat__header {
+    border-bottom: 1px solid #ECECEC;
+    display: flex;
+    align-items: center;
+    padding: 26px;
+    justify-content: flex-start;
+}
+
+.chat__name {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+    line-height: 17px;
+    font-family: KievitPro, Arial, sans-serif;
+}
+
+.chat__picture {
+    margin: 0 20px 0 0;
+    flex-grow: 0;
+}
+
+/*Часть с должность и флажком*/
+.chat__position-block {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    font-family: KievitPro, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.chat-name__picture {
+    margin: 0 4px 0 0;
+}
+
+.chat__position {
+    font-size: 13px;
+    color: #FF4641;
+    margin: 0;
+}
+
+/*Блок с сообщениями*/
+
+.chat__list {
+    max-height: 496px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+/*Новый скрол для чата*/
+
+.chat__list::-webkit-scrollbar {
+    width: 3px;
+}
+
+.chat__list::-webkit-scrollbar-track {
+    background: transparent; 
+}
+ 
+.chat__list::-webkit-scrollbar-thumb {
+    background: #FF4641; 
+}
+
+/*Блок с вводом сообщения*/
+
+.chat__input {
+    border-top: 1px solid #ECECEC; 
+    padding: 29px 19px 28px 40px;
+    display: flex;
+    align-items: center;
+}

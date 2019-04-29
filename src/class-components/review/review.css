@@ -1,0 +1,85 @@
+.review {
+    width: 879px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 35px 31px;
+    background: white;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.review__title {
+    text-transform: capitalize;
+    font-size: 29px;
+    line-height: 35px;
+    letter-spacing: 0.03em;  
+    margin-bottom: 20px; 
+    font-family: KievitPro, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.review__carousel {
+    display: flex;
+    margin-left: 0;
+    transition: margin-left .5s;
+}
+
+.review__carousel-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.review__carousel-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1%;
+    height: 100%;
+    box-shadow: inset -10px 0px 10px -10px rgba(0,0,0,0.25);
+    overflow: hidden;
+}
+
+/* блок с кнопками и навигацией в карусели*/
+
+.review__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    font-family: KievitPro, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.review__navigation {
+    display: flex;
+    align-items: center;
+
+}
+
+.review__navigation-item {
+    width: 4px;
+    height: 4px;
+    background: #212121;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.review__navigation-item_active {
+    background: #FF4641;
+    width: 8px;
+    height: 8px
+}
+
+/*Кнопки все отзывы*/
+
+.review__all-buton {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 17px;
+    color: #212121;
+    border: 2px solid #FF4641;
+    background: white;
+    padding: 10px 24px 13px 24px;
+}

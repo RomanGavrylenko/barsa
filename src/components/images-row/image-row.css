@@ -1,0 +1,40 @@
+.image-row {
+    display: flex;
+}
+
+.image-row__picture {
+    margin: 0 10px 0 0;
+    position: relative;
+}
+
+.image-row__add::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.image-row__add::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.image-row__count {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 10px;
+}

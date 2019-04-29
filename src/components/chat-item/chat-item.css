@@ -1,0 +1,38 @@
+.chat-item {
+    background: #fff;
+    display: flex;
+    margin: 26px;
+    padding: 12px 40px 15px 12px; 
+}
+.chat-item_color {
+    background: #F9F7F2;
+}
+
+/*Ава пользователя*/
+
+.chat-item__picture {
+    margin: 0;
+    margin-right: 12px;
+}
+
+
+/*текст пользователя*/
+
+.chat-item__text,
+.chat-item__time {
+    margin: 0;
+}
+
+.chat-item__text {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: KievitPro, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.chat-item__time {
+    font-size: 11px;;
+    line-height: 25px;
+    color: #9D9D9D;
+    font-family: Roboto, sans-serif;
+}
