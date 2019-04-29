@@ -1,5 +1,19 @@
-import withChatContext from '../../hoc/with-chat-context';
 import ChatView from '../chat-view/chat-view';
+import withContext from '../../hoc/with-context';
+import { ChatConsumer } from '../../context-api/chat-context';
 
-//чат для администратора
-export default withChatContext(true)(ChatView);
+const toProps = (value) => {
+
+    const { user, allMessages, admin, handleSubmit } = value;
+
+    return {
+        mainAva: admin.ava ,
+        name: admin.name ,
+        messages: allMessages ,
+        secondAva: user.ava ,
+        isAdmin: admin.isAdmin ,
+        position: admin.position ,
+        handler :  handleSubmit 
+    }
+}
+export default withContext(toProps, ChatConsumer)(ChatView);
